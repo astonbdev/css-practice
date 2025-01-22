@@ -1,0 +1,7 @@
+p {
+    border-style: solid;
+    margin: 1;
+    padding: 100;
+    border: 1em solid;
+    display:inline-block;
+}
