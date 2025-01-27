@@ -1,7 +1,62 @@
-p {
-    border-style: solid;
-    margin: 1;
-    padding: 100;
-    border: 1em solid;
-    display:inline-block;
+html *{
+  font-family: Verdana;
+  font-size: 1.1em;
+  color: #232b2b
+}
+
+.book-container{
+  display: flex;
+  border: .1rem solid gray;
+  border-radius: 10px;
+  height: auto;
+}
+
+img.book-cover {
+  margin: 5px;
+  max-width: 100%;
+  width: auto;
+  max-height: 200px;
+}
+
+.book-details{
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+
+.book-author{
+  justify-content: flex-end;
+}
+
+.book-description{
+  font-size: .7em;
+  color: #3b444b;
+  flex-grow: 2;
+}
+
+.book-details p{
+  margin: 3;
+}
+
+.book-details p.book-description{
+  margin-top: 50px;
+}
+
+.flex-example{
+  display:flex;
+  flex-direction: column;
+  justify-content:flex-end;
+  align-items: flex-end;
+}
+
+.flex-example div{
+  width:50px;
+  background-color:aquamarine
+}
+
+.flex-align-self-example{
+  align-self: center;
 }
